@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="res_values_strings">Hello there from res/values/strings.xml</string>
+    <string name="res_layouts_layout">Hello there from res/layouts/layout/main_container.xml</string>
+    <string name="res_layouts_layouts_category2_layout">Hello there from res/layouts/layouts_category2/layout/sub_layout.xml</string>
+
+</resources>
