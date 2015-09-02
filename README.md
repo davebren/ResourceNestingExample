@@ -15,15 +15,10 @@ Below is the sourceSets block from the build.gradle file. Notice that the subfol
 ```
 sourceSets {
     main {
-        manifest.srcFile '/src/main/AndroidManifest.xml'
-        java.srcDirs = ['/src/main/java','.apt_generated']
-        aidl.srcDirs = ['/src/main/aidl','.apt_generated']
-        assets.srcDirs = ['/src/main/assets']
-        res.srcDirs =
-        [
-                '/src/main/res/layouts/layouts_category2',
-                '/src/main/res/layouts',
-                '/src/main/res'
+        res.srcDirs = [
+                'src/main/res/layouts/layouts_category2',
+                'src/main/res/layouts',
+                'src/main/res'
         ]
     }
 }
